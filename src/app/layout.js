@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Header />
           {/* Navbar */}
-          {/* Searchboz */}
+          {/* Searchbox */}
 
           {children}
         </Providers>
