@@ -4,7 +4,7 @@ import React from 'react'
 import {AiOutlineLike} from 'react-icons/ai'
 
 export default function Card({result}) {
-    console.log(result)
+    // console.log(result)
   return (
     <div className='cursor-pointer sm:p-3 
     sm:hover:shadow-slate-400 sm:shadow-md rounded-lg
@@ -15,7 +15,7 @@ export default function Card({result}) {
                 result.backdrop_path || result.poster_path
             }`} 
             width={500}
-            height={500}
+            height={300}
             alt={`poster for movie: ${result.original_title}`}
             className='sm:rounded-t-lg group-hover:opacity-80
             transition-opacity duration-200'
